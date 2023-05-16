@@ -1,0 +1,81 @@
+.bg-1 {
+	background: url("../images/bg/banner-1.webp") no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.bg-2 {
+	background: url("../images/bg/quienes.webp") 50% 50%;
+	background-size: cover;
+}
+
+.bg-3 {
+	background: url("../images/bg/servicios.webp") 50% 50%;
+	background-size: cover;
+}
+
+.bg-4 {
+	background: url("../images/bg/about-modern-img-1.webp") 50% 50%;
+	background-size: cover;
+}
+
+.bg-5 {
+	background: url("../images/bg/estadisticas.webp");
+	position: absolute;
+	content: "";
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	@extend .overly-3;
+}
+
+.bg-6 {
+	background: url("../images/bg/banner-1.webp") no-repeat;
+	content: "";
+	background-size: cover;
+	@extend .overly-3;
+}
+
+.bg-7 {
+	background: url("../images/bg/reintegro.webp") no-repeat;
+	content: "";
+	background-size: cover;
+	@extend .overly-3;
+}
+
+.bg-8 {
+	background: url("../images/bg/trabaja.webp") no-repeat;
+	content: "";
+	background-size: cover;
+	@extend .overly-3;
+}
+.bg-9 {
+	background: url("../images/bg/faq.webp") no-repeat;
+	background-position: 50% 50%;
+}
+
+.student {
+	background: url("../images/student.webp") no-repeat 0% 50%;
+	background-size: cover;
+	padding: 0 !important;
+}
+.student-bg{
+	background: url("../images/student-bg.webp") no-repeat;
+  background-size: cover;
+  padding: 0 !important;
+}
+.social {
+	background: url("../images/bg/redes.webp") no-repeat 0% 50%;
+	background-size: cover;
+	padding: 0 !important;
+}
+
+@include mobile {
+	.student {
+		background: none;
+	}
+	.social{
+		background: none;
+		background-color: #009FE3;
+	}
+}
